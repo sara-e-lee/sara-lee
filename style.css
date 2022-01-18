@@ -1,0 +1,289 @@
+@charset "utf-8";
+body {
+	font-family: Manrope, 'sans serif';
+	padding: 0;
+	margin: 0;
+}
+.covid {
+	color: #9C4A59;
+	display: inline-block;
+	font-size: 17px;
+	font-weight: 500;
+	text-align: center;
+	padding: 5px 0;
+	width: 100%;
+	transition: color 0.2s;
+}
+.covid:hover {
+	color: #333333;
+}
+h1 {
+	color: #00356B;
+	font-size: 45px;
+	font-weight: 800;
+	letter-spacing: 3px;
+	text-align: center;
+	margin: 10px 0;
+}
+.navbar {
+	background-color: #E5F0FF;
+}
+.navbar-nav {
+	margin: 0 auto;
+}
+.nav-link {
+	color: #111111;
+	margin: 0 50px;
+	transition: color 0.2s;
+}
+.nav-link:hover {
+	color: #00356B;
+}
+.dropdown-item:hover{
+	background-color: #647EBD;
+	transition: 0.2s;
+}
+.form-inline {
+	padding: 0;
+	margin: 0;
+}
+.form-inline button {
+	background-color: #92AECF;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+	margin-top: 500px;
+}
+.carousel-caption {
+	background-color: rgba(0,0,0, 0.50);
+	padding: 20px 30px;
+}
+.carousel-caption p {
+	font-size: 17px;
+	text-align: center;
+}
+h2 {
+	background-color: #00356B;
+	color: #ffffff;
+	font-size: 44px;
+	font-weight: 800;
+	letter-spacing: 3px;
+	text-align: center;
+	padding: 15px 0;
+}
+.dropbtn {
+	background-color: #D5A419;
+	border-radius: 3px;
+	color: #1B1B1B;
+	font-size: 17px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	padding: 20px;
+	border: none;
+	transition: 0.2s;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+	margin-left: 30px;
+	width: 200px;
+	float: left;
+	transition: 0.2;
+}
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #EEEEEE;
+	min-width: 163px;
+	z-index: 1;
+}
+.dropdown-content a {
+  	color: #000000;
+  	padding: 20px;
+  	display: block;
+	transition: all 0.2s;
+}
+.dropdown-content a:hover {
+	background-color: #647EBD;
+	color: #ffffff;
+}
+.dropdown:hover .dropdown-content {
+	display: block;
+
+}
+.dropdown:hover .dropbtn {
+	background-color: #FFEECA;
+}
+
+.news h3 {
+	color: #004E9E;
+	float: left;
+	font-size: 26px;
+	font-weight: 800;	
+	letter-spacing: 5px;
+	margin: 0 30px;
+	padding: 10px 0;
+}
+#bar {
+	background-color: #003da5; 
+	height: 3px; 
+	width: 250px; 
+	margin-bottom: 8px;
+	position: relative;
+	left: 260px;
+	top: 45px;
+}
+.media-body ul li a, .media-body a{
+	color: #46639F;
+	transition: 0.2s;
+}
+.media-body ul li a:hover, .media-body a:hover {
+	color: #141414;
+}
+.articles {
+	margin: 0 200px;
+}
+.media {
+	width: 1000px;
+	padding: 30px;
+	margin: 25px;
+}
+.media img {
+	width: 20%;
+}
+.media-body {
+	margin: 0 10px;
+}
+.header {
+	color: #0F70D2;
+	font-weight: 700;
+	font-size: 20px;
+}
+.date {
+	color: #797979;
+	font-size: 14px;
+	font-weight: 500;
+}
+.school-of-art {
+	background-image: url("images/yale-soa.jpg");
+}
+.artist {
+	background-image: url("images/artist.jpg");
+}
+.school-of-art, .artist {
+	height: 700px;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-repeat: none;
+}
+.weekly-events {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	padding: 0;
+	height: 700px;
+	text-align: center;
+}
+.weekly-events h5 {
+	font-weight: 600;
+	font-size: 18px;
+	text-align: center;
+}
+.weekly-events .date {
+	font-size: 14px;
+}
+figure {
+	background-color: #F2F8FF;
+	width: 375px;
+	height: 530px;
+	margin: 60px auto;
+	padding: 15px 0;
+	box-shadow: 3px 5px 5px rgba(0,0,0,0.2);
+}
+figure img {
+	width: 250px;
+	padding: 20px 0;	
+}
+.weekly-events .btn {
+	background-color: #3B4856;
+	margin: 15px 0;
+}
+.modal-content h4 {
+	text-align: center;
+	font-size: 19px;
+	font-weight: 700;
+	padding: 20px;
+}
+.modal-footer {
+	margin: 0 auto;
+}
+.modal-footer .btn {
+	background-color: #3B4856;
+}
+fieldset {
+	border-radius: 7px;
+	background-color: #C8DDF5;
+	width: 500px;
+	margin: 0 auto;
+	padding: 15px;
+}
+.newsletter {
+	height: 650px;
+}
+.newsletter .text {
+	font-size: 18px;
+	font-weight: 500;
+	text-align: left;
+	padding: 15px;
+	margin: 15px;
+}
+.newsletter form {
+	margin: 0 auto;
+}
+.submit {
+	margin: 0 195px;
+	text-align: center;
+}
+footer {
+	color: #F1F1F1;
+	background-color: #00356B;
+	text-align: center;
+}
+.address, .links, .socmed {
+	display: inline-block;
+	padding: 0 50px;
+	margin: 0 75px;
+}
+
+.links ul li {
+	list-style: none;
+	padding: 0 150px;
+	margin: 0;
+	text-align: left;
+}
+.socmed ul {
+	list-style: none;
+	padding: 0;
+	text-align: left;
+}
+.logo h6 {
+	font-size: 18px;
+	padding: 10px 0;
+}
+.address {
+	font-size: 12px;
+	line-height: 3px;
+	padding: 10px 0;
+	margin: 25px 0;
+}
+.address img {
+	width: 50px;
+}
+a {
+	color: #F1F1F1;
+	text-align: left;
+}
+a:hover {
+	color: #46639F;
+	text-decoration: none;
+}
